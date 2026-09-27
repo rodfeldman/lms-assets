@@ -1,0 +1,15 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Guardrail: nunca publicar segredos ou config de outros projetos
+.env
+.env.*
+*.pem
+*.key
+.claude/
+.aiox/
+.aiox-core/
+CLAUDE.md
+AGENTS.md
+node_modules/
